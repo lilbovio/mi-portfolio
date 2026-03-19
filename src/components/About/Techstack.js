@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
@@ -11,13 +11,13 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  //SiRedis,
+  //SiFirebase,
   SiNextdotjs,
-  SiSolidity,
+  //SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+// import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
