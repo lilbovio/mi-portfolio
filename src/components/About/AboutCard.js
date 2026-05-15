@@ -8,31 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos! Soy <span className="purple">Juan Pablo Bovio Vallejo </span>
-            de <span className="purple"> Jalisco, Mexico.</span>
+            Hi Everyone, I am <span className="purple">Juan Pablo Bovio Vallejo </span>
+            from <span className="purple"> Jalisco, Mexico.</span>
             <br />
-            Actualmente me encuentro cursando la ingenieria en Ciencias computacionales en la UdeG.
+            I am currently pursuing an Engineering degree in Computer Science at UdeG.
             <br />
-            Me siento orgulloso de decir que curse la preparatoria tecnica en Diseño de software donde
-            adquiri demasidado del conocimiento que poseo hoy en dia!
+            I'm proud to say I completed a technical high school program in Software Design where
+            I acquired a lot of the knowledge I have today!
             <br />
             <br />
-            Aparte de programar, me gusta realizar otras actividades! Por ejemplo:
+            Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jugar videojuegos
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Ver series
+              <ImPointRight /> Watching Series
             </li>
             <li className="about-activity">
-              <ImPointRight /> Hacer deporte
+              <ImPointRight /> Doing Sports
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Si puedes imaginarlo, puedes programarlo!"{" "}
+            "If you can imagine it, you can program it!"{" "}
           </p>
           <footer className="blockquote-footer">Alejandro Taboada</footer>
         </blockquote>
