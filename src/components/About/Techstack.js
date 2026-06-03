@@ -9,13 +9,17 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiGithubBadge,
+  DiPostgresql,
+  DiMysql
 } from "react-icons/di";
 import {
   //SiRedis,
-  //SiFirebase,
+  SiFirebase,
   SiNextdotjs,
   //SiSolidity,
   SiPostgresql,
+  SiDocker,
 } from "react-icons/si";
 // import { TbBrandGolang } from "react-icons/tb";
 
@@ -51,6 +55,21 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithubBadge />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      < Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
       </Col>
     </Row>
   );
